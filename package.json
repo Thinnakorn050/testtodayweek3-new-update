@@ -1,0 +1,27 @@
+{
+  "name": "connection_demo",
+  "version": "1.0.0",
+  "description": "A sample command-line application with an entrypoint in `bin/`, library code in `lib/`, and example unit test in `test/`.",
+  "main": "bin/server_mobile.js",
+  "bin": {
+    "connection_demo": "bin/server_mobile.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node bin/server_mobile.js",
+    "dev": "nodemon bin/server_mobile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,0 +1,8 @@
+npm init
+npm init -y
+npm install express nodemon
+"scripts": {
+  "start": "node index.js",
+  "dev": "nodemon bin/server_mobile.js"
+}
+npm run dev
